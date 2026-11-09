@@ -1,0 +1,35 @@
+{
+  "id": "onboarding-en-03",
+  "locale": "en",
+  "browserTimezone": "Europe/London",
+  "turns": [
+    {
+      "user": "I'm a product designer. Figma every day, design systems, prototyping, usability testing."
+    },
+    {
+      "user": "8 years, based in London."
+    },
+    {
+      "user": "Remote please. My portfolio is at www.example.com/janedesign"
+    },
+    {
+      "user": "Salary around £65k per year before tax."
+    }
+  ],
+  "expected": {
+    "skills": ["figma", "designsystems", "prototyping", "usability"],
+    "desiredTitles": ["Product Designer"],
+    "experienceYears": 8,
+    "timezone": "Europe/London",
+    "workFormats": ["remote"],
+    "salary": {
+      "minMinor": 6500000,
+      "currency": "GBP",
+      "period": "year",
+      "basis": "gross"
+    },
+    "country": "GB",
+    "city": "London"
+  },
+  "piiInTurns": ["link"]
+}

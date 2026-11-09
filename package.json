@@ -1,0 +1,50 @@
+{
+  "name": "@intgetion/bot",
+  "version": "0.1.0",
+  "description": "Spoki, the INTGETION assistant core: web and Telegram conversations, memory, reminders, journal, routing, confirmations and interactive blocks. Module tool sets plug in through a registry.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "exports": {
+    ".": "./src/modules/bot/service/index.ts",
+    "./tools": "./src/modules/bot/service/tools.ts",
+    "./ui": "./src/modules/bot/ui/types.ts",
+    "./ports": "./src/ports.ts",
+    "./server": "./src/server/app.ts",
+    "./db": "./src/db/owned.ts"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server/main.ts",
+    "start": "tsx src/server/main.ts",
+    "migrate": "tsx scripts/migrate.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@intgetion/applications": "github:theonyxiesss/intgetion-applications#v0.1.1",
+    "@intgetion/billing": "github:theonyxiesss/intgetion-billing#v0.2.0",
+    "@intgetion/candidates": "github:theonyxiesss/intgetion-candidates#v0.1.1",
+    "@intgetion/feedback": "github:theonyxiesss/intgetion-feedback#v0.1.0",
+    "@intgetion/freelance": "github:theonyxiesss/intgetion-freelance#v0.1.0",
+    "@intgetion/jobs": "github:theonyxiesss/intgetion-jobs#v0.1.1",
+    "@intgetion/kit": "github:theonyxiesss/intgetion-kit#v0.3.1",
+    "@intgetion/llm": "github:theonyxiesss/intgetion-llm#v0.1.0",
+    "@intgetion/taxonomy": "github:theonyxiesss/intgetion-taxonomy#v0.3.0",
+    "@intgetion/users": "github:theonyxiesss/intgetion-users#v0.1.1",
+    "drizzle-orm": "^0.45.3",
+    "pino": "10.4.0",
+    "postgres": "^3.4.9",
+    "tsx": "^4.20.0",
+    "use-intl": "^4.14.9",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/pg": "^8.11.0",
+    "pg": "^8.13.0",
+    "typescript": "^5",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

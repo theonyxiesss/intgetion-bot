@@ -1,0 +1,34 @@
+{
+  "id": "onboarding-en-08",
+  "locale": "en",
+  "browserTimezone": "Australia/Sydney",
+  "turns": [
+    {
+      "user": "Marketing person: SEO, content marketing, Google Analytics, email marketing."
+    },
+    {
+      "user": "6 years in Sydney."
+    },
+    {
+      "user": "Remote full-time. Looking for 110k-130k AUD per year."
+    }
+  ],
+  "expected": {
+    "skills": ["seo", "contentmarketing", "googleanalytics", "emailmarketing"],
+    "desiredTitles": ["Marketing Manager"],
+    "experienceYears": 6,
+    "timezone": "Australia/Sydney",
+    "workFormats": ["remote"],
+    "employmentTypes": ["full_time"],
+    "salary": {
+      "minMinor": 11000000,
+      "maxMinor": 13000000,
+      "currency": "AUD",
+      "period": "year",
+      "basis": "gross"
+    },
+    "country": "AU",
+    "city": "Sydney"
+  },
+  "piiInTurns": []
+}

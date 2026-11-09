@@ -1,0 +1,16 @@
+{
+  "id": "account-06",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "Change my email to a new one"
+    }
+  ],
+  "reply": {
+    "text": "Email changes stay on the site: open account settings to change it.",
+    "toolCalls": []
+  },
+  "expected": {
+    "tool": null
+  }
+}

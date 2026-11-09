@@ -1,0 +1,25 @@
+{
+  "id": "freelance-02",
+  "locale": "ru",
+  "turns": [
+    {
+      "user": "Найди фрилансера, который сделает смарт-контракт на Solidity"
+    }
+  ],
+  "catalog": [],
+  "reply": {
+    "text": "В каталоге пока нет услуг под эти условия. Можно поискать в другом направлении или с другим бюджетом и сроком.",
+    "toolCalls": [
+      {
+        "name": "find_services",
+        "input": {
+          "q": "Solidity",
+          "category": "web3"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "saysEmpty": true
+  }
+}

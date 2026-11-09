@@ -1,0 +1,42 @@
+{
+  "id": "onboarding-en-05",
+  "locale": "en",
+  "browserTimezone": "America/Los_Angeles",
+  "turns": [
+    {
+      "user": "I do customer support: Zendesk, Intercom, troubleshooting, SLAs."
+    },
+    {
+      "user": "3 years. Pacific time, Los Angeles."
+    },
+    {
+      "user": "Part-time remote would be perfect."
+    },
+    {
+      "user": "Around $28 an hour."
+    }
+  ],
+  "expected": {
+    "skills": [
+      "customersupport",
+      "zendesk",
+      "intercom",
+      "troubleshooting",
+      "servicelevelagreements"
+    ],
+    "desiredTitles": ["Customer Support Specialist"],
+    "experienceYears": 3,
+    "timezone": "America/Los_Angeles",
+    "workFormats": ["remote"],
+    "employmentTypes": ["part_time"],
+    "salary": {
+      "minMinor": 2800,
+      "currency": "USD",
+      "period": "hour",
+      "basis": "gross"
+    },
+    "country": "US",
+    "city": "Los Angeles"
+  },
+  "piiInTurns": []
+}

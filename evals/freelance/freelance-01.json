@@ -1,0 +1,44 @@
+{
+  "id": "freelance-01",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "I need someone to build a landing page on Next.js. What do you have?"
+    }
+  ],
+  "catalog": [
+    {
+      "id": "00000000-0000-4000-8000-0000000000f1",
+      "title": "Landing page on Next.js in a week",
+      "category": "development",
+      "languages": ["en", "ru"],
+      "description": "I build a fast landing page on Next.js with a form and analytics.",
+      "packages": [
+        {
+          "tier": "basic",
+          "priceMinor": 45000,
+          "days": 7,
+          "revisions": 2
+        },
+        {
+          "tier": "standard",
+          "priceMinor": 90000,
+          "days": 10,
+          "revisions": 3
+        }
+      ]
+    }
+  ],
+  "reply": {
+    "text": "There is “Landing page on Next.js in a week”: basic $450 for 7 days, standard $900 for 10 days. Want to send a request for one of them?",
+    "toolCalls": [
+      {
+        "name": "find_services",
+        "input": {
+          "q": "landing page"
+        }
+      }
+    ]
+  },
+  "expected": {}
+}

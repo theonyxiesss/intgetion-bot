@@ -1,0 +1,25 @@
+{
+  "id": "account-02",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "Save this search: remote backend jobs"
+    }
+  ],
+  "reply": {
+    "text": "The card is on the screen. Confirm it and the search is saved with a daily alert option.",
+    "toolCalls": [
+      {
+        "name": "save_search",
+        "input": {
+          "name": "Remote backend",
+          "q": "backend",
+          "workFormat": "remote"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "tool": "save_search"
+  }
+}

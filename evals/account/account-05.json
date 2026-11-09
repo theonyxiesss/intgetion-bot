@@ -1,0 +1,23 @@
+{
+  "id": "account-05",
+  "locale": "ru",
+  "turns": [
+    {
+      "user": "Подпишись на компанию acme-labs"
+    }
+  ],
+  "reply": {
+    "text": "Карточка на экране: подтвердите подписку.",
+    "toolCalls": [
+      {
+        "name": "follow_company",
+        "input": {
+          "slug": "acme-labs"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "tool": "follow_company"
+  }
+}

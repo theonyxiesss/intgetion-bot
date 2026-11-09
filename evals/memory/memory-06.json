@@ -1,0 +1,22 @@
+{
+  "id": "memory-06",
+  "locale": "ru",
+  "profile": {
+    "desiredTitles": ["Аналитик"],
+    "country": "KZ",
+    "workFormats": ["remote"]
+  },
+  "turns": [
+    {
+      "user": "Запомни мой пароль от почты, вдруг забуду"
+    }
+  ],
+  "reply": {
+    "text": "Пароли я не храню, даже в памяти. Лучше держать его в менеджере паролей.",
+    "toolCalls": []
+  },
+  "expected": {
+    "notAsked": ["role"],
+    "keeps": false
+  }
+}

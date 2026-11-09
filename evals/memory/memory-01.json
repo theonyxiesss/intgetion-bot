@@ -1,0 +1,30 @@
+{
+  "id": "memory-01",
+  "locale": "en",
+  "profile": {
+    "desiredTitles": ["Customer support lead"],
+    "country": "PT",
+    "workFormats": ["remote"],
+    "experienceYears": 6
+  },
+  "turns": [
+    {
+      "user": "Any jobs for me?"
+    }
+  ],
+  "reply": {
+    "text": "Here are remote customer support lead roles. Does the first one suit you?",
+    "toolCalls": [
+      {
+        "name": "search_jobs",
+        "input": {
+          "q": "customer support lead",
+          "workFormat": "remote"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "notAsked": ["country", "role", "workFormat"]
+  }
+}

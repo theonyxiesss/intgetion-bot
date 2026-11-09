@@ -1,0 +1,23 @@
+{
+  "id": "account-03",
+  "locale": "ru",
+  "turns": [
+    {
+      "user": "Скрой мой профиль от работодателей"
+    }
+  ],
+  "reply": {
+    "text": "Показал карточку. Профиль скроется после подтверждения.",
+    "toolCalls": [
+      {
+        "name": "set_profile_hidden",
+        "input": {
+          "hidden": true
+        }
+      }
+    ]
+  },
+  "expected": {
+    "tool": "set_profile_hidden"
+  }
+}

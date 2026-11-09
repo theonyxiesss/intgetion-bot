@@ -1,0 +1,29 @@
+{
+  "id": "memory-03",
+  "locale": "en",
+  "profile": {
+    "desiredTitles": ["Backend engineer"],
+    "country": "DE",
+    "workFormats": ["remote"]
+  },
+  "turns": [
+    {
+      "user": "Remember that I only want companies with a four-day week."
+    }
+  ],
+  "reply": {
+    "text": "Kept: you only want companies with a four-day week. You can see or erase it in settings.",
+    "toolCalls": [
+      {
+        "name": "remember_fact",
+        "input": {
+          "fact": "Only wants companies with a four-day week"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "notAsked": ["country", "role"],
+    "keeps": true
+  }
+}

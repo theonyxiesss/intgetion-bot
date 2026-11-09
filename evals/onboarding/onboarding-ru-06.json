@@ -1,0 +1,26 @@
+{
+  "id": "onboarding-ru-06",
+  "locale": "ru",
+  "browserTimezone": "Europe/Moscow",
+  "turns": [
+    {
+      "user": "Я менеджер по продажам B2B: CRM, Salesforce, переговоры."
+    },
+    {
+      "user": "7 лет, Москва."
+    },
+    {
+      "user": "Гибрид или офис в Москве. Telegram: t.me/fake_sales_manager"
+    }
+  ],
+  "expected": {
+    "skills": ["b2bsales", "crm", "salesforce", "negotiation"],
+    "desiredTitles": ["Менеджер по продажам"],
+    "experienceYears": 7,
+    "timezone": "Europe/Moscow",
+    "workFormats": ["hybrid", "onsite"],
+    "country": "RU",
+    "city": "Москва"
+  },
+  "piiInTurns": ["link"]
+}

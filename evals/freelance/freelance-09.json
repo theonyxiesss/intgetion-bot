@@ -1,0 +1,22 @@
+{
+  "id": "freelance-09",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "I finished the work, mark the order delivered."
+    }
+  ],
+  "catalog": [],
+  "reply": {
+    "text": "The card is on the screen. Type the link to the result into its field.",
+    "toolCalls": [
+      {
+        "name": "mark_delivered",
+        "input": {
+          "orderId": "00000000-0000-4000-8000-0000000000f3"
+        }
+      }
+    ]
+  },
+  "expected": {}
+}

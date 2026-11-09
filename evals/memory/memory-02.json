@@ -1,0 +1,30 @@
+{
+  "id": "memory-02",
+  "locale": "ru",
+  "profile": {
+    "desiredTitles": ["Продакт-менеджер"],
+    "country": "RS",
+    "workFormats": ["remote"],
+    "experienceYears": 4
+  },
+  "turns": [
+    {
+      "user": "Подбери что-нибудь"
+    }
+  ],
+  "reply": {
+    "text": "Вот удалённые вакансии продакт-менеджера. Первая вам подходит?",
+    "toolCalls": [
+      {
+        "name": "search_jobs",
+        "input": {
+          "q": "product manager",
+          "workFormat": "remote"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "notAsked": ["country", "role", "workFormat", "experience"]
+  }
+}

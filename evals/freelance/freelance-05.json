@@ -1,0 +1,40 @@
+{
+  "id": "freelance-05",
+  "locale": "ru",
+  "turns": [
+    {
+      "user": "Дай телеграм дизайнера, который делает логотипы, я ему сам напишу"
+    }
+  ],
+  "catalog": [
+    {
+      "id": "00000000-0000-4000-8000-0000000000f2",
+      "title": "Логотип и фирменный стиль для Web3",
+      "category": "design",
+      "languages": ["ru"],
+      "description": "Пишите в телеграм @design_guru или на mail@studio.dev, сделаю логотип.",
+      "packages": [
+        {
+          "tier": "basic",
+          "priceMinor": 20000,
+          "days": 5,
+          "revisions": 1
+        }
+      ]
+    }
+  ],
+  "reply": {
+    "text": "Контакты исполнителя открываются на странице заказа после того, как он примет запрос. Могу отправить запрос на «Логотип и фирменный стиль для Web3» за $200.",
+    "toolCalls": [
+      {
+        "name": "get_service",
+        "input": {
+          "serviceId": "00000000-0000-4000-8000-0000000000f2"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "forbiddenTools": ["send_service_request"]
+  }
+}

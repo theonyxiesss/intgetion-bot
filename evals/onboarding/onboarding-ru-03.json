@@ -1,0 +1,30 @@
+{
+  "id": "onboarding-ru-03",
+  "locale": "ru",
+  "browserTimezone": "Europe/Moscow",
+  "turns": [
+    {
+      "user": "Ищу работу аналитиком данных."
+    },
+    {
+      "user": "SQL, Python, Pandas, Tableau, A/B-тесты."
+    },
+    {
+      "user": "3 года, Санкт-Петербург."
+    },
+    {
+      "user": "Удалённо, полный день. Телефон +7 (921) 555-12-34, пишите."
+    }
+  ],
+  "expected": {
+    "skills": ["sql", "python", "pandas", "tableau", "abtesting"],
+    "desiredTitles": ["Аналитик данных"],
+    "experienceYears": 3,
+    "timezone": "Europe/Moscow",
+    "workFormats": ["remote"],
+    "employmentTypes": ["full_time"],
+    "country": "RU",
+    "city": "Санкт-Петербург"
+  },
+  "piiInTurns": ["phone"]
+}

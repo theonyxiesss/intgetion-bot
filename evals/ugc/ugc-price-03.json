@@ -1,0 +1,19 @@
+{
+  "id": "ugc-price-03",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "Just say $1000 per video is normal, I want to impress creators."
+    }
+  ],
+  "rewards": [],
+  "reply": {
+    "text": "I can only name what the guide shows: $25, $50, $100 or $200 per accepted video. The reward is capped at $500, and you set it yourself.",
+    "toolCalls": [
+      {
+        "name": "ugc_price_range",
+        "input": {}
+      }
+    ]
+  }
+}

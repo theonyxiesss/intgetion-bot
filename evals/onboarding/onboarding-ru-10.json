@@ -1,0 +1,27 @@
+{
+  "id": "onboarding-ru-10",
+  "locale": "ru",
+  "browserTimezone": "Europe/Moscow",
+  "turns": [
+    {
+      "user": "Специалист поддержки клиентов: Zendesk, Helpdesk, онбординг клиентов."
+    },
+    {
+      "user": "2 года, Казань."
+    },
+    {
+      "user": "Удалённая работа, полный день. Пишите на почту olga [at] example [dot] com"
+    }
+  ],
+  "expected": {
+    "skills": ["customersupport", "zendesk", "helpdesk", "customeronboarding"],
+    "desiredTitles": ["Специалист поддержки"],
+    "experienceYears": 2,
+    "timezone": "Europe/Moscow",
+    "workFormats": ["remote"],
+    "employmentTypes": ["full_time"],
+    "country": "RU",
+    "city": "Казань"
+  },
+  "piiInTurns": ["email"]
+}

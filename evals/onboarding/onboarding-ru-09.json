@@ -1,0 +1,38 @@
+{
+  "id": "onboarding-ru-09",
+  "locale": "ru",
+  "browserTimezone": "Asia/Tbilisi",
+  "turns": [
+    {
+      "user": "Продакт-менеджер: продуктовая аналитика, роадмап, Scrum, Jira."
+    },
+    {
+      "user": "6 лет, сейчас живу в Тбилиси."
+    },
+    {
+      "user": "Удалённо. От 4 000 долларов в месяц до налогов."
+    }
+  ],
+  "expected": {
+    "skills": [
+      "productmanagement",
+      "productanalytics",
+      "roadmapping",
+      "scrum",
+      "jira"
+    ],
+    "desiredTitles": ["Продакт-менеджер"],
+    "experienceYears": 6,
+    "timezone": "Asia/Tbilisi",
+    "workFormats": ["remote"],
+    "salary": {
+      "minMinor": 400000,
+      "currency": "USD",
+      "period": "month",
+      "basis": "gross"
+    },
+    "country": "GE",
+    "city": "Тбилиси"
+  },
+  "piiInTurns": []
+}

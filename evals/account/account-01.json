@@ -1,0 +1,27 @@
+{
+  "id": "account-01",
+  "locale": "ru",
+  "turns": [
+    {
+      "user": "Отзови мой отклик на Backend engineer"
+    }
+  ],
+  "reply": {
+    "text": "Карточка на экране: подтвердите, и отклик будет отозван.",
+    "toolCalls": [
+      {
+        "name": "get_my_applications",
+        "input": {}
+      },
+      {
+        "name": "withdraw_application",
+        "input": {
+          "applicationId": "00000000-0000-4000-8000-0000000000a1"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "tool": "withdraw_application"
+  }
+}

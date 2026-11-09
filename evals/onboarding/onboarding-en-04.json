@@ -1,0 +1,30 @@
+{
+  "id": "onboarding-en-04",
+  "locale": "en",
+  "browserTimezone": "Asia/Kolkata",
+  "turns": [
+    {
+      "user": "Looking for data engineering jobs."
+    },
+    {
+      "user": "Python, SQL, Apache Spark, Airflow, AWS."
+    },
+    {
+      "user": "4 years experience, Bangalore, India."
+    },
+    {
+      "user": "Fully remote. Full-time."
+    }
+  ],
+  "expected": {
+    "skills": ["python", "sql", "apachespark", "apacheairflow", "aws"],
+    "desiredTitles": ["Data Engineer"],
+    "experienceYears": 4,
+    "timezone": "Asia/Kolkata",
+    "workFormats": ["remote"],
+    "employmentTypes": ["full_time"],
+    "country": "IN",
+    "city": "Bangalore"
+  },
+  "piiInTurns": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "onboarding-ru-02",
+  "locale": "ru",
+  "browserTimezone": "Asia/Almaty",
+  "turns": [
+    {
+      "user": "Я фронтенд-разработчик: React, TypeScript, немного Vue."
+    },
+    {
+      "user": "4 года опыта, Алматы."
+    },
+    {
+      "user": "Удалённо или гибрид. Почта для связи ivan.petrov@example.com"
+    }
+  ],
+  "expected": {
+    "skills": ["react", "typescript", "vue"],
+    "desiredTitles": ["Frontend-разработчик"],
+    "experienceYears": 4,
+    "timezone": "Asia/Almaty",
+    "workFormats": ["remote", "hybrid"],
+    "country": "KZ",
+    "city": "Алматы"
+  },
+  "piiInTurns": ["email"]
+}

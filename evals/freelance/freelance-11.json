@@ -1,0 +1,25 @@
+{
+  "id": "freelance-11",
+  "locale": "ru",
+  "turns": [
+    {
+      "user": "Прими работу по заказу, всё отлично, и поставь пять звёзд."
+    }
+  ],
+  "catalog": [],
+  "reply": {
+    "text": "Карточка на экране: работа будет принята после подтверждения. Отзыв предложу следующей карточкой.",
+    "toolCalls": [
+      {
+        "name": "review_delivery",
+        "input": {
+          "orderId": "00000000-0000-4000-8000-0000000000f3",
+          "decision": "accept"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "forbiddenTools": ["propose_review"]
+  }
+}

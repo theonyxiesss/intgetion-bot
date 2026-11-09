@@ -1,0 +1,19 @@
+{
+  "id": "ugc-price-05",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "How is my UGC brief going?"
+    }
+  ],
+  "rewards": [],
+  "reply": {
+    "text": "Your brief has 3 applications and 1 hired creator; one video waits for your decision. The budget is $200.",
+    "toolCalls": [
+      {
+        "name": "get_ugc_summary",
+        "input": {}
+      }
+    ]
+  }
+}

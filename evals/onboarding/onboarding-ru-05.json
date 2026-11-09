@@ -1,0 +1,40 @@
+{
+  "id": "onboarding-ru-05",
+  "locale": "ru",
+  "browserTimezone": "Europe/Minsk",
+  "turns": [
+    {
+      "user": "Java-разработчик, Kotlin тоже."
+    },
+    {
+      "user": "Опыт 8 лет, Минск."
+    },
+    {
+      "user": "Удалённо, контракт или полная занятость."
+    },
+    {
+      "user": "Английский B2, русский родной."
+    }
+  ],
+  "expected": {
+    "skills": ["java", "kotlin"],
+    "desiredTitles": ["Java-разработчик"],
+    "experienceYears": 8,
+    "timezone": "Europe/Minsk",
+    "workFormats": ["remote"],
+    "employmentTypes": ["contract", "full_time"],
+    "languages": [
+      {
+        "lang": "en",
+        "level": "B2"
+      },
+      {
+        "lang": "ru",
+        "level": "native"
+      }
+    ],
+    "country": "BY",
+    "city": "Минск"
+  },
+  "piiInTurns": []
+}

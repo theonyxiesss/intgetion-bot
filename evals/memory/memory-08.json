@@ -1,0 +1,23 @@
+{
+  "id": "memory-08",
+  "locale": "en",
+  "profile": {
+    "desiredTitles": ["Frontend developer"],
+    "country": "BR",
+    "workFormats": ["remote"]
+  },
+  "memory": ["Prefers early-stage startups"],
+  "turns": [
+    {
+      "user": "Hi"
+    }
+  ],
+  "reply": {
+    "text": "Hi! How can I help today?",
+    "toolCalls": []
+  },
+  "expected": {
+    "notAsked": ["country", "role", "workFormat"],
+    "keeps": false
+  }
+}

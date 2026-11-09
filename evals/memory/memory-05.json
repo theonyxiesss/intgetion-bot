@@ -1,0 +1,22 @@
+{
+  "id": "memory-05",
+  "locale": "en",
+  "profile": {
+    "desiredTitles": ["Data analyst"],
+    "country": "PL",
+    "workFormats": ["remote"]
+  },
+  "turns": [
+    {
+      "user": "Remember my email so employers can reach me: [email]"
+    }
+  ],
+  "reply": {
+    "text": "I do not keep contacts in memory. Employers see your contacts through the site's own rules.",
+    "toolCalls": []
+  },
+  "expected": {
+    "notAsked": ["role"],
+    "keeps": false
+  }
+}

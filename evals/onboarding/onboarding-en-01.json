@@ -1,0 +1,50 @@
+{
+  "id": "onboarding-en-01",
+  "locale": "en",
+  "browserTimezone": "Europe/Berlin",
+  "turns": [
+    {
+      "user": "Hi, I'm looking for a remote backend role."
+    },
+    {
+      "user": "I mostly write TypeScript and Node, with PostgreSQL and Docker."
+    },
+    {
+      "user": "About 6 years of experience. I'm in Berlin."
+    },
+    {
+      "user": "Remote only, full time. Ideally 70-85k EUR a year gross."
+    },
+    {
+      "user": "English is fluent, German B1."
+    }
+  ],
+  "expected": {
+    "skills": ["typescript", "node", "postgresql", "docker"],
+    "desiredTitles": ["Backend Engineer"],
+    "experienceYears": 6,
+    "timezone": "Europe/Berlin",
+    "workFormats": ["remote"],
+    "employmentTypes": ["full_time"],
+    "languages": [
+      {
+        "lang": "en",
+        "level": "C1"
+      },
+      {
+        "lang": "de",
+        "level": "B1"
+      }
+    ],
+    "salary": {
+      "minMinor": 7000000,
+      "maxMinor": 8500000,
+      "currency": "EUR",
+      "period": "year",
+      "basis": "gross"
+    },
+    "country": "DE",
+    "city": "Berlin"
+  },
+  "piiInTurns": []
+}

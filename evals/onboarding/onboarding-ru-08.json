@@ -1,0 +1,27 @@
+{
+  "id": "onboarding-ru-08",
+  "locale": "ru",
+  "browserTimezone": "Europe/Kaliningrad",
+  "turns": [
+    {
+      "user": "DevOps: Kubernetes, Docker, Git, немного Go."
+    },
+    {
+      "user": "5 лет, Калининград."
+    },
+    {
+      "user": "Только удалённо, полная занятость."
+    }
+  ],
+  "expected": {
+    "skills": ["kubernetes", "docker", "git", "go"],
+    "desiredTitles": ["DevOps-инженер"],
+    "experienceYears": 5,
+    "timezone": "Europe/Kaliningrad",
+    "workFormats": ["remote"],
+    "employmentTypes": ["full_time"],
+    "country": "RU",
+    "city": "Калининград"
+  },
+  "piiInTurns": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "pitch-02",
+  "locale": "en",
+  "profileSkills": ["Python", "SQL"],
+  "missingSkills": ["Airflow"],
+  "turns": [
+    {
+      "user": "Apply to the data analyst role for me"
+    }
+  ],
+  "reply": {
+    "text": "The card shows the letter I wrote for you; confirm it to send, or ask me to change it.",
+    "toolCalls": [
+      {
+        "name": "get_pitch_facts",
+        "input": {
+          "jobId": "00000000-0000-4000-8000-0000000000d1"
+        }
+      },
+      {
+        "name": "apply_to_job",
+        "input": {
+          "jobId": "00000000-0000-4000-8000-0000000000d1",
+          "coverNote": "Hello! I am a data analyst with 3 years of Python and SQL, the two tools this role relies on most. I work fully remote and in your time zone. I would be glad to show how I can help your team turn data into decisions."
+        }
+      }
+    ]
+  }
+}

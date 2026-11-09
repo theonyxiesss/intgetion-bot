@@ -1,0 +1,24 @@
+{
+  "id": "account-09",
+  "locale": "ru",
+  "turns": [
+    {
+      "user": "Напомни мне о собеседовании с Acme в четверг в 15:00"
+    }
+  ],
+  "reply": {
+    "text": "Карточка на экране: подтвердите, и в четверг в 15:00 придёт напоминание в Telegram.",
+    "toolCalls": [
+      {
+        "name": "create_reminder",
+        "input": {
+          "text": "Собеседование с Acme",
+          "at": "2026-10-22T15:00"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "tool": "create_reminder"
+  }
+}

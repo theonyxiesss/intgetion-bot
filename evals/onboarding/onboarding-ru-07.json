@@ -1,0 +1,33 @@
+{
+  "id": "onboarding-ru-07",
+  "locale": "ru",
+  "browserTimezone": "Asia/Novosibirsk",
+  "turns": [
+    {
+      "user": "Бухгалтер: бухучёт, налоги, расчёт зарплаты."
+    },
+    {
+      "user": "10 лет опыта, Новосибирск."
+    },
+    {
+      "user": "Частичная занятость, удалённо. 80 000 рублей в месяц на руки."
+    }
+  ],
+  "expected": {
+    "skills": ["accounting", "tax", "payroll"],
+    "desiredTitles": ["Бухгалтер"],
+    "experienceYears": 10,
+    "timezone": "Asia/Novosibirsk",
+    "workFormats": ["remote"],
+    "employmentTypes": ["part_time"],
+    "salary": {
+      "minMinor": 8000000,
+      "currency": "RUB",
+      "period": "month",
+      "basis": "net"
+    },
+    "country": "RU",
+    "city": "Новосибирск"
+  },
+  "piiInTurns": []
+}

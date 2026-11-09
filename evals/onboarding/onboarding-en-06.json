@@ -1,0 +1,47 @@
+{
+  "id": "onboarding-en-06",
+  "locale": "en",
+  "browserTimezone": "Europe/Amsterdam",
+  "turns": [
+    {
+      "user": "Product manager, B2B SaaS. Roadmapping, Agile/Scrum, Jira, A/B testing."
+    },
+    {
+      "user": "7 years. Amsterdam."
+    },
+    {
+      "user": "Hybrid or remote, full time."
+    },
+    {
+      "user": "English C2, Dutch A2."
+    }
+  ],
+  "expected": {
+    "skills": [
+      "productmanagement",
+      "roadmapping",
+      "agile",
+      "scrum",
+      "jira",
+      "abtesting"
+    ],
+    "desiredTitles": ["Product Manager"],
+    "experienceYears": 7,
+    "timezone": "Europe/Amsterdam",
+    "workFormats": ["hybrid", "remote"],
+    "employmentTypes": ["full_time"],
+    "languages": [
+      {
+        "lang": "en",
+        "level": "C2"
+      },
+      {
+        "lang": "nl",
+        "level": "A2"
+      }
+    ],
+    "country": "NL",
+    "city": "Amsterdam"
+  },
+  "piiInTurns": []
+}

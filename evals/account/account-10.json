@@ -1,0 +1,25 @@
+{
+  "id": "account-10",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "Remind me tomorrow at 9 to send the test task, I'm in New York"
+    }
+  ],
+  "reply": {
+    "text": "The card is on the screen; confirm it and the reminder comes to your Telegram.",
+    "toolCalls": [
+      {
+        "name": "create_reminder",
+        "input": {
+          "text": "Send the test task",
+          "at": "2026-10-18T09:00",
+          "timeZone": "America/New_York"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "tool": "create_reminder"
+  }
+}

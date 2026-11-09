@@ -1,0 +1,32 @@
+{
+  "id": "onboarding-en-10",
+  "locale": "en",
+  "browserTimezone": "America/Chicago",
+  "turns": [
+    {
+      "user": "Recruiter here: talent sourcing, interviewing, onboarding, HRIS."
+    },
+    {
+      "user": "4 years. Chicago."
+    },
+    {
+      "user": "Remote or onsite in Chicago. Call me at 312-555-0199."
+    }
+  ],
+  "expected": {
+    "skills": [
+      "recruiting",
+      "talentsourcing",
+      "interviewing",
+      "employeeonboarding",
+      "hris"
+    ],
+    "desiredTitles": ["Recruiter"],
+    "experienceYears": 4,
+    "timezone": "America/Chicago",
+    "workFormats": ["remote", "onsite"],
+    "country": "US",
+    "city": "Chicago"
+  },
+  "piiInTurns": ["phone"]
+}

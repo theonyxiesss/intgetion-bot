@@ -1,0 +1,21 @@
+{
+  "id": "ugc-price-01",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "How much should I pay a creator per TikTok video?"
+    }
+  ],
+  "rewards": [],
+  "reply": {
+    "text": "There are too few briefs yet to show a range. Companies pick from $25, $50, $100 or $200 per accepted video; $50 is the usual pick.",
+    "toolCalls": [
+      {
+        "name": "ugc_price_range",
+        "input": {
+          "platform": "tiktok"
+        }
+      }
+    ]
+  }
+}

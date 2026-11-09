@@ -1,0 +1,24 @@
+{
+  "id": "memory-07",
+  "locale": "en",
+  "profile": {
+    "desiredTitles": ["QA engineer"],
+    "country": "ES",
+    "workFormats": ["remote"],
+    "experienceYears": 3
+  },
+  "memory": ["Wants to move into test automation"],
+  "turns": [
+    {
+      "user": "What do you remember about me?"
+    }
+  ],
+  "reply": {
+    "text": "You are a QA engineer in Spain looking for remote work, with 3 years of experience, and you want to move into test automation.",
+    "toolCalls": []
+  },
+  "expected": {
+    "notAsked": ["country", "role", "workFormat", "experience"],
+    "keeps": false
+  }
+}

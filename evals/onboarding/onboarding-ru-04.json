@@ -1,0 +1,35 @@
+{
+  "id": "onboarding-ru-04",
+  "locale": "ru",
+  "browserTimezone": "Asia/Yekaterinburg",
+  "turns": [
+    {
+      "user": "Я дизайнер интерфейсов. Figma, UI/UX, дизайн-системы."
+    },
+    {
+      "user": "6 лет. Екатеринбург."
+    },
+    {
+      "user": "Только удалённо. Портфолио: https://example.com/portfolio"
+    },
+    {
+      "user": "Зарплата от 250 тысяч в месяц до вычета налогов."
+    }
+  ],
+  "expected": {
+    "skills": ["figma", "uidesign", "uxdesign", "designsystems"],
+    "desiredTitles": ["UI/UX-дизайнер"],
+    "experienceYears": 6,
+    "timezone": "Asia/Yekaterinburg",
+    "workFormats": ["remote"],
+    "salary": {
+      "minMinor": 25000000,
+      "currency": "RUB",
+      "period": "month",
+      "basis": "gross"
+    },
+    "country": "RU",
+    "city": "Екатеринбург"
+  },
+  "piiInTurns": ["link"]
+}

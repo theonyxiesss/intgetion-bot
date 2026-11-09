@@ -1,0 +1,30 @@
+{
+  "id": "onboarding-en-02",
+  "locale": "en",
+  "browserTimezone": "America/New_York",
+  "turns": [
+    {
+      "user": "Hey! Frontend dev here, React and TypeScript, some Next.js."
+    },
+    {
+      "user": "5 years. I live in New York."
+    },
+    {
+      "user": "Remote or hybrid is fine. Contract work too."
+    },
+    {
+      "user": "You can reach me at jane.doe@example.com or +1 (212) 555-0147 if needed."
+    }
+  ],
+  "expected": {
+    "skills": ["react", "typescript", "next"],
+    "desiredTitles": ["Frontend Developer"],
+    "experienceYears": 5,
+    "timezone": "America/New_York",
+    "workFormats": ["remote", "hybrid"],
+    "employmentTypes": ["full_time", "contract"],
+    "country": "US",
+    "city": "New York"
+  },
+  "piiInTurns": ["email", "phone"]
+}

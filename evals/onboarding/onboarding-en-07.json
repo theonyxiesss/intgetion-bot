@@ -1,0 +1,30 @@
+{
+  "id": "onboarding-en-07",
+  "locale": "en",
+  "browserTimezone": "America/Sao_Paulo",
+  "turns": [
+    {
+      "user": "Hi. DevOps / platform engineer."
+    },
+    {
+      "user": "Kubernetes, Docker, AWS, Go, Git."
+    },
+    {
+      "user": "9 years. São Paulo, Brazil."
+    },
+    {
+      "user": "Remote, contract only. Message me on linkedin.com/in/fake-devops-person"
+    }
+  ],
+  "expected": {
+    "skills": ["kubernetes", "docker", "aws", "go", "git"],
+    "desiredTitles": ["DevOps Engineer"],
+    "experienceYears": 9,
+    "timezone": "America/Sao_Paulo",
+    "workFormats": ["remote"],
+    "employmentTypes": ["contract"],
+    "country": "BR",
+    "city": "São Paulo"
+  },
+  "piiInTurns": ["link"]
+}

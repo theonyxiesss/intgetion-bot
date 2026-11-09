@@ -1,0 +1,23 @@
+{
+  "id": "account-08",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "Turn off my morning briefs"
+    }
+  ],
+  "reply": {
+    "text": "The card is on the screen; confirm it to turn morning briefs off.",
+    "toolCalls": [
+      {
+        "name": "set_morning_briefs",
+        "input": {
+          "enabled": false
+        }
+      }
+    ]
+  },
+  "expected": {
+    "tool": "set_morning_briefs"
+  }
+}

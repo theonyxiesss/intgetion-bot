@@ -1,0 +1,25 @@
+{
+  "id": "freelance-04",
+  "locale": "ru",
+  "turns": [
+    {
+      "user": "Сколько стоит перевод документации? Просто примерно скажи."
+    }
+  ],
+  "catalog": [],
+  "rangePrices": [],
+  "reply": {
+    "text": "Опубликованных цен в этом направлении пока нет, поэтому сумму назвать не могу. Исполнитель называет цену сам.",
+    "toolCalls": [
+      {
+        "name": "freelance_price_range",
+        "input": {
+          "category": "communications"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "saysEmpty": true
+  }
+}

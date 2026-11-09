@@ -1,0 +1,27 @@
+{
+  "id": "account-11",
+  "locale": "ru",
+  "turns": [
+    {
+      "user": "Отмени напоминание про собеседование"
+    }
+  ],
+  "reply": {
+    "text": "Показал карточку отмены напоминания.",
+    "toolCalls": [
+      {
+        "name": "list_my_reminders",
+        "input": {}
+      },
+      {
+        "name": "cancel_reminder",
+        "input": {
+          "reminderId": "00000000-0000-4000-8000-0000000000c1"
+        }
+      }
+    ]
+  },
+  "expected": {
+    "tool": "cancel_reminder"
+  }
+}

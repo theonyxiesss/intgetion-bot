@@ -1,0 +1,23 @@
+{
+  "id": "freelance-03",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "How much does a logo usually cost here?"
+    }
+  ],
+  "catalog": [],
+  "rangePrices": [20000, 35000, 60000],
+  "reply": {
+    "text": "For design, published basic packages go from $200 to $600, with a median of $350.",
+    "toolCalls": [
+      {
+        "name": "freelance_price_range",
+        "input": {
+          "category": "design"
+        }
+      }
+    ]
+  },
+  "expected": {}
+}

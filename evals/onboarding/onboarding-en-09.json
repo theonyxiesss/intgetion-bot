@@ -1,0 +1,33 @@
+{
+  "id": "onboarding-en-09",
+  "locale": "en",
+  "browserTimezone": "Europe/Warsaw",
+  "turns": [
+    {
+      "user": "I'm a C# and ASP.NET developer, also SQL and Docker."
+    },
+    {
+      "user": "10 years, Warsaw."
+    },
+    {
+      "user": "Remote. Full time. Net 25 000 PLN per month (B2B)."
+    }
+  ],
+  "expected": {
+    "skills": ["csharp", "sql", "docker"],
+    "desiredTitles": ["Backend Developer"],
+    "experienceYears": 10,
+    "timezone": "Europe/Warsaw",
+    "workFormats": ["remote"],
+    "employmentTypes": ["full_time"],
+    "salary": {
+      "minMinor": 2500000,
+      "currency": "PLN",
+      "period": "month",
+      "basis": "net"
+    },
+    "country": "PL",
+    "city": "Warsaw"
+  },
+  "piiInTurns": []
+}

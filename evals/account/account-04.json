@@ -1,0 +1,29 @@
+{
+  "id": "account-04",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "Stop the emails about new jobs for my searches"
+    }
+  ],
+  "reply": {
+    "text": "A card is on the screen to turn off search alert emails.",
+    "toolCalls": [
+      {
+        "name": "get_my_settings",
+        "input": {}
+      },
+      {
+        "name": "set_notification",
+        "input": {
+          "type": "search.alert",
+          "channel": "email",
+          "enabled": false
+        }
+      }
+    ]
+  },
+  "expected": {
+    "tool": "set_notification"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "freelance-06",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "Order the basic landing page. I need a page for my DeFi wallet launch by next Friday."
+    }
+  ],
+  "catalog": [
+    {
+      "id": "00000000-0000-4000-8000-0000000000f1",
+      "title": "Landing page on Next.js in a week",
+      "category": "development",
+      "languages": ["en", "ru"],
+      "description": "I build a fast landing page on Next.js with a form and analytics.",
+      "packages": [
+        {
+          "tier": "basic",
+          "priceMinor": 45000,
+          "days": 7,
+          "revisions": 2
+        },
+        {
+          "tier": "standard",
+          "priceMinor": 90000,
+          "days": 10,
+          "revisions": 3
+        }
+      ]
+    }
+  ],
+  "reply": {
+    "text": "The card with your request is on the screen. Nothing is sent until you confirm it.",
+    "toolCalls": [
+      {
+        "name": "send_service_request",
+        "input": {
+          "serviceId": "00000000-0000-4000-8000-0000000000f1",
+          "tier": "basic",
+          "task": "A landing page for the launch of my DeFi wallet, with a sign-up form.",
+          "wantedBy": "next Friday"
+        }
+      }
+    ]
+  },
+  "expected": {}
+}

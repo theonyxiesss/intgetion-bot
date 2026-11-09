@@ -1,0 +1,34 @@
+{
+  "id": "freelance-07",
+  "locale": "en",
+  "turns": [
+    {
+      "user": "I want to sell Figma design work. Make me a service for $300, 5 days."
+    }
+  ],
+  "catalog": [],
+  "reply": {
+    "text": "The service is on a card. Add links to past work in the card field; it goes to moderation after you confirm.",
+    "toolCalls": [
+      {
+        "name": "propose_service",
+        "input": {
+          "title": "Figma design for a web app screen",
+          "category": "design",
+          "description": "I design one clean web app screen in Figma with components, states and a short handoff note for developers.",
+          "languages": ["en"],
+          "packages": [
+            {
+              "tier": "basic",
+              "price": "300",
+              "deliveryDays": 5,
+              "revisions": 2,
+              "includes": ["One screen in Figma", "Handoff note"]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "expected": {}
+}

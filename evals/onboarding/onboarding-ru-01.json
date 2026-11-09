@@ -1,0 +1,36 @@
+{
+  "id": "onboarding-ru-01",
+  "locale": "ru",
+  "browserTimezone": "Europe/Moscow",
+  "turns": [
+    {
+      "user": "Привет! Ищу удалённую работу бэкенд-разработчиком."
+    },
+    {
+      "user": "Пишу на Python, плюс PostgreSQL, Redis и Docker."
+    },
+    {
+      "user": "Опыт 5 лет, живу в Москве."
+    },
+    {
+      "user": "Только удалёнка, полная занятость. Хочу от 300 000 рублей в месяц на руки."
+    }
+  ],
+  "expected": {
+    "skills": ["python", "postgresql", "redis", "docker"],
+    "desiredTitles": ["Backend-разработчик"],
+    "experienceYears": 5,
+    "timezone": "Europe/Moscow",
+    "workFormats": ["remote"],
+    "employmentTypes": ["full_time"],
+    "salary": {
+      "minMinor": 30000000,
+      "currency": "RUB",
+      "period": "month",
+      "basis": "net"
+    },
+    "country": "RU",
+    "city": "Москва"
+  },
+  "piiInTurns": []
+}

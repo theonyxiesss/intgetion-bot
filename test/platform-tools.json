@@ -1,0 +1,678 @@
+[
+  {
+    "name": "search_jobs",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_job",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "published_demand",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "find_events",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_event",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_profile",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_standing",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_profile_update",
+    "access": "guest",
+    "confirm": "signedIn",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "save_job",
+    "access": "user",
+    "confirm": "never",
+    "journal": true,
+    "explicitYes": false
+  },
+  {
+    "name": "hide_job",
+    "access": "user",
+    "confirm": "never",
+    "journal": true,
+    "explicitYes": false
+  },
+  {
+    "name": "apply_to_job",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_matches",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_team_job",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_applications",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "list_job_categories",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "spoki": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_company",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "spoki": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_saved_jobs",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "unsave_job",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "withdraw_application",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_saved_searches",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "save_search",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "delete_saved_search",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "set_search_alert",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_follows",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "follow_company",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "unfollow_company",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_settings",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "set_email_language",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "set_notification",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "set_profile_hidden",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "set_morning_briefs",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_cards",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_jobs",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_job",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_job_update",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "set_job_status",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "patch_job_draft",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "confirm_job_draft",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": true
+  },
+  {
+    "name": "reset_job_draft",
+    "access": "user",
+    "confirm": "never",
+    "journal": true,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_company",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_company_update",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_account_update",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_pitch_facts",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "find_freelance_tasks",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "send_task_proposal",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "patch_service_draft",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "confirm_service_draft",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": true
+  },
+  {
+    "name": "reset_service_draft",
+    "access": "user",
+    "confirm": "never",
+    "journal": true,
+    "explicitYes": false
+  },
+  {
+    "name": "find_services",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_service",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "freelance_price_range",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_services",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_service",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "set_service_status",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_orders",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_order",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_freelancer_mode",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_service",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "cardFields": [
+      "links"
+    ],
+    "explicitYes": false
+  },
+  {
+    "name": "propose_service_update",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "cardFields": [
+      "links"
+    ],
+    "explicitYes": false
+  },
+  {
+    "name": "send_service_request",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "cancel_request",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "respond_to_request",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "start_order",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "mark_delivered",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "cardFields": [
+      "deliveryUrl"
+    ],
+    "explicitYes": false
+  },
+  {
+    "name": "review_delivery",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_review",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "report_freelance",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "patch_brief",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "confirm_brief",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": true
+  },
+  {
+    "name": "reset_draft",
+    "access": "user",
+    "confirm": "never",
+    "journal": true,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_ugc_campaigns",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "ugc_price_range",
+    "access": "guest",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_ugc_summary",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_ugc_campaign",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "list_open_ugc_campaigns",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_ugc_applicants",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_ugc_invites",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_my_creator_profile",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "preview_ugc_matches",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "focus_ugc",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_creator_profile",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_ugc_campaign",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "apply_ugc_campaign",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "offer_ugc_hire",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "accept_ugc_invite",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "decline_ugc_invite",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "issue_ugc_join_link",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "remind_ugc_invites",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "submit_ugc_video",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "request_ugc_changes",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "decide_ugc_submission",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "get_ugc_winners",
+    "access": "user",
+    "confirm": "never",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "set_ugc_status",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "propose_ugc_update",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  },
+  {
+    "name": "withdraw_ugc_campaign",
+    "access": "user",
+    "confirm": "always",
+    "journal": false,
+    "explicitYes": false
+  }
+]
