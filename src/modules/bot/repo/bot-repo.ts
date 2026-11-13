@@ -368,12 +368,14 @@ export async function listConversationsForUser(
       campaignId: botConversations.campaignId,
       inviteId: botConversations.inviteId,
       lastMessageAt: botConversations.lastMessageAt,
+      // Raw names on purpose: drizzle prints columns without their table, so
+      // "id" inside the subquery would mean bot_messages.id.
       firstQuestion: sql<string | null>`(
-        select ${botMessages.content} from ${botMessages}
-        where ${botMessages.conversationId} = ${botConversations.id}
-          and ${botMessages.role} = 'user'
-          and ${botMessages.createdAt} >= ${since}
-        order by ${botMessages.createdAt} asc
+        select bm.content from bot_messages bm
+        where bm.conversation_id = bot_conversations.id
+          and bm.role = 'user'
+          and bm.created_at >= ${since.toISOString()}::timestamptz
+        order by bm.created_at asc
         limit 1
       )`,
     })
