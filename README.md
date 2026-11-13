@@ -67,6 +67,7 @@ the job-goal tab in `x-spoki-goal-session`.
 | POST | `/v1/goal` | job goal actions |
 | POST | `/v1/feedback` | rate an answer |
 | POST | `/v1/ui/action` | a button on a block |
+| GET | `/v1/conversations?limit=` | own conversations, newest first: topic, last message time, first question (chat history) |
 | GET / POST / DELETE | `/v1/memory` | list, add, clear facts |
 | PATCH / DELETE | `/v1/memory/:id` | edit, forget one fact |
 | POST | `/v1/telegram/update` | a Telegram update for Spoki |

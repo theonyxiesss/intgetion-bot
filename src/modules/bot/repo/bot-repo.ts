@@ -339,6 +339,50 @@ export async function latestConversationForUser(
   return row;
 }
 
+/** One row of the conversation history (chat history screen). */
+export type ConversationSummary = {
+  id: string;
+  channel: string;
+  jobId: string | null;
+  campaignId: string | null;
+  inviteId: string | null;
+  lastMessageAt: Date;
+  firstQuestion: string | null;
+};
+
+/**
+ * The user's conversations, newest first. `firstQuestion` is the first user
+ * message still inside the text retention window (D471), else null.
+ */
+export async function listConversationsForUser(
+  userId: string,
+  limit: number,
+  now = new Date(),
+): Promise<ConversationSummary[]> {
+  const since = new Date(now.getTime() - CHAT_TEXT_TTL_MS);
+  return getDb()
+    .select({
+      id: botConversations.id,
+      channel: botConversations.channel,
+      jobId: botConversations.jobId,
+      campaignId: botConversations.campaignId,
+      inviteId: botConversations.inviteId,
+      lastMessageAt: botConversations.lastMessageAt,
+      firstQuestion: sql<string | null>`(
+        select ${botMessages.content} from ${botMessages}
+        where ${botMessages.conversationId} = ${botConversations.id}
+          and ${botMessages.role} = 'user'
+          and ${botMessages.createdAt} >= ${since}
+        order by ${botMessages.createdAt} asc
+        limit 1
+      )`,
+    })
+    .from(botConversations)
+    .where(eq(botConversations.userId, userId))
+    .orderBy(desc(botConversations.lastMessageAt))
+    .limit(limit);
+}
+
 /** Undecided, unexpired cards of one user in one conversation, oldest first. */
 export async function listOpenConfirmations(input: {
   conversationId: string;

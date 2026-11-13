@@ -1,6 +1,6 @@
 {
   "name": "@intgetion/bot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Spoki, the INTGETION assistant core: web and Telegram conversations, memory, reminders, journal, routing, confirmations and interactive blocks. Module tool sets plug in through a registry.",
   "license": "UNLICENSED",
   "type": "module",

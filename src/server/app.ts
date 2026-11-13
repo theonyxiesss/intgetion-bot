@@ -279,6 +279,17 @@ const routes: Route[] = [
   },
   {
     method: "GET",
+    pattern: /^\/v1\/conversations$/,
+    run: async (request, _p, url) =>
+      json({
+        conversations: await bot.listOwnConversations(
+          signedIn(request),
+          Number(url.searchParams.get("limit") ?? 30),
+        ),
+      }),
+  },
+  {
+    method: "GET",
     pattern: /^\/v1\/memory$/,
     run: async (request) => json({ facts: await bot.listMemory(signedIn(request)) }),
   },
